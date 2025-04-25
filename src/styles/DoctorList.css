@@ -1,0 +1,35 @@
+.doctor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .doctor-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .doctor-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .doctor-details {
+    flex: 1;
+  }
+  .doctor-footer {
+    text-align: right;
+  }
+  .doctor-footer button {
+    border: 1px solid #005ca8;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: white;
+    color: #005ca8;
+    cursor: pointer;
+  }
+  

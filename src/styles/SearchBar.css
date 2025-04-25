@@ -1,0 +1,20 @@
+.search-bar {
+    display: flex;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: auto;
+  }
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+  }
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #005ca8;
+  }

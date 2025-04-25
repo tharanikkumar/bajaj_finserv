@@ -1,0 +1,21 @@
+.app-container {
+    font-family: sans-serif;
+    background-color: #f4f6f9;
+  }
+  .top-bar {
+    background-color: #005ca8;
+    padding: 1rem;
+    color: white;
+  }
+  .content {
+    display: flex;
+  }
+  .sidebar {
+    width: 280px;
+    padding: 1rem;
+    background: white;
+  }
+  .main {
+    flex: 1;
+    padding: 1rem;
+  }
